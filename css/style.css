@@ -73,11 +73,11 @@ p {
 /* index styling */
 /* head */
 
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
   padding-top: 25px;
   padding-bottom: 25px;
-}
+} */
 
 /* .logo {
   font-family: "Raleway", sans-serif;
@@ -126,7 +126,7 @@ bottom: -32.3px;
   align-items: center;
 } */
 
-.nav-icon {
+/* .nav-icon {
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -157,7 +157,7 @@ bottom: -32.3px;
 :focus {
   color: var(--main-hover-color);
  
-}
+} */
 
 /* .nav-list-item {
   display: block;
@@ -187,16 +187,16 @@ bottom: -32.3px;
   margin-left: 50px;
 } */
 
-.header-contacts:not(:last-child) {
+/* .header-contacts:not(:last-child) {
   margin-right: 50px;
-}
+} */
 
 
 /*  Hero  */
 
 
 
-.hero {
+/* .hero {
   background-color: #2f303a;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -222,7 +222,7 @@ bottom: -32.3px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-}
+} */
 
 /* .hero-button {
   cursor: pointer;
@@ -246,14 +246,14 @@ bottom: -32.3px;
   border-radius: 4px;
   
 }
-.hero-button:focus {
+.<link rel="stylesheet"href="./css/main.min.css">:focus {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }   */
 
 /* advantages */
-.advantages {
+/* .advantages {
   padding-top: 94px;
 }
 
@@ -299,7 +299,7 @@ bottom: -32.3px;
   max-width: 80px;
   max-height: 80px;
   border-radius: 4px;
-}
+} */
 /* Specialization */
 
 .specialization {
@@ -360,7 +360,7 @@ bottom: -32.3px;
 }
 /* Team */
 
-.team-item {
+/* .team-item {
   display: block;
   display: flex;
 }
@@ -422,7 +422,7 @@ bottom: -32.3px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
+} */
 
 /* .social-list {
   display: flex;
@@ -451,7 +451,7 @@ bottom: -32.3px;
   
 } */
 
-.container-customers {
+/* .container-customers {
   padding-top: 94px;
   padding-bottom: 94px;
   margin-left: auto;
@@ -503,7 +503,7 @@ bottom: -32.3px;
   fill: var(--main-hover-color);
   border: 1px solid var(--main-hover-color);
   
-}  
+}   */
   
 
 
@@ -514,7 +514,7 @@ bottom: -32.3px;
 
 /* footer */
 
-.footer {
+/* .footer {
   display: flex;
 }
 
@@ -574,7 +574,7 @@ color: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: space-between;
- }
+ } */
  
 /* .contats-us-link:not(:last-child) {
   margin-right: 10px;
@@ -594,7 +594,7 @@ color: #FFFFFF;
 .footer-logo-color {
   color: #ffffff;
 } */
-.footer-adress {
+/* .footer-adress {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -625,14 +625,14 @@ color: #FFFFFF;
   margin-bottom: 0;
   padding-top: 60px;
   padding-bottom: 60px;
-}
+} */
 /* .footer-logo {
   padding: auto;
   display: inline-block;
 
   margin-bottom: 20px;
 } */
-.footer-adress {
+/* .footer-adress {
   margin-bottom: 9px;
 }
 .footer-contacts:focus {
@@ -645,10 +645,10 @@ color: #FFFFFF;
 }
 footer {
   background-color: var(--secondary-background-color);
-}
+} */
 
 /* Footer Form Styling */
-.footer-form {
+/* .footer-form {
   margin-left: 93px;
 }
 
@@ -665,7 +665,7 @@ footer {
 
 .footer-social-icon {
   margin-left: 10px;
-}
+} */
 
 /* .footer-form-button {
   background: #2196F3;
@@ -694,7 +694,7 @@ footer {
 } */
 
 
-.footer-form-box {
+/* .footer-form-box {
   display: flex;
  
 }
@@ -720,11 +720,11 @@ footer {
   align-items: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 /* Portfolio styling */
 
-.presenatation {
+/* .presenatation {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -776,8 +776,8 @@ footer {
   background: #ffffff;
   /* border: 1px solid var(--portfolio-img-border);
         box-sizing: border-box; */
-}
-.portfolio-link {
+
+/* .portfolio-link {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -856,11 +856,11 @@ footer {
   .portfolio-link:hover .portfolio-top-text,
   .portfolio-link:focus .portfolio-top-text {
     transform: translateY(0);
-    /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-  }
+    
+  }  */
   
   /* Modal */
-  .backdrop {
+  /* .backdrop {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.1);
@@ -1087,6 +1087,6 @@ footer {
     background-color: #188ce8;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-  }
+  } */
 
  
