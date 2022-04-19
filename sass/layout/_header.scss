@@ -29,14 +29,15 @@
     transition: var(--main-hover-color);
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    :focus {
+        color: var(--main-hover-color);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &:not(:last-child) {
+        margin-right: 50px;
+    }
 }
 
-.header-contacts:hover,
-:focus {
-    color: var(--main-hover-color);
-
-}
-
-.header-contacts:not(:last-child) {
-    margin-right: 50px;
-}

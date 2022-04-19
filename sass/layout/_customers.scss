@@ -43,11 +43,12 @@
     width: 170px;
     height: 92px;
     
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.customers-list__link:not(:last-child) {
-    margin-right: 30px;
-}
+
 
 .customers-list__icon {
     fill: #afb1b8;
